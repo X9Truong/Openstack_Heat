@@ -4,6 +4,9 @@ Trước khi cài đặt Heat Dashboard cần cài Horizon trước tham khảo 
 
 Cài đặt packages Heat Dashboard
 
+`yum install -y openstack-heat-* python-heatclient openstack-utils`
+`systemctl restart httpd`
+
 ``` sh
 pip install heat-dashboard
 ```
