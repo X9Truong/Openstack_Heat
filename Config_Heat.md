@@ -3,7 +3,7 @@
 + Tạo databases
 ``` sh
 mysql -u root -pWelcome123
-
+CREATE DATABASE heat;
 GRANT ALL PRIVILEGES ON heat.* TO 'heat'@'localhost' \
   IDENTIFIED BY 'Welcome123';
 
