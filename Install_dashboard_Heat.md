@@ -18,10 +18,10 @@ pip install heat-dashboard
 sudo apt-get install gettext
 ```
 
-Các packages sẽ được cài vào thư mục `/usr/lib/python2.7/dist-packages/heat-dashboard`
+Các packages sẽ được cài vào thư mục `/usr/local/lib/python2.7/dist-packages/heat_dashboard/`
 
 
-Để có thể enable heat-dashboard plugin bạn cần phải copy các file trong thư mục `/usr/lib/python2.7/dist-packages/heat_dashboard/enabled/_[1-9]*.py` vào trong thư mục `/usr/share/openstack-dashboard/openstack_dashboard/local/enabled`
+Để có thể enable heat-dashboard plugin bạn cần phải copy các file trong thư mục `/usr/local/lib/python2.7/dist-packages/heat_dashboard/enabled/_[1-9]*.py` vào trong thư mục `/usr/share/openstack-dashboard/openstack_dashboard/local/enabled`
 
 ``` sh
 cp /usr/lib/python2.7/dist-packages/heat_dashboard/enabled/_[1-9]*.py \
@@ -31,12 +31,12 @@ cp /usr/lib/python2.7/dist-packages/heat_dashboard/enabled/_[1-9]*.py \
 Copy file sau vào thư mục heat-dashboard
 
 ``` sh
-cp /usr/share/openstack-dashboard/./manage.py /usr/lib/python2.7/dist-packages/heat_dashboard/
+cp /usr/share/openstack-dashboard/./manage.py /usr/local/lib/python2.7/dist-packages/heat_dashboard/
 ```
 
 Trên command line di chuyển tới thư mục heat-dashboard:
 
-`cd /usr/share/openstack-dashboard/`
+`cd /usr/local/lib/python2.7/dist-packages/heat_dashboard/`
 
 Chạy từng dòng lệnh sau:
 
