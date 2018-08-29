@@ -104,6 +104,11 @@ Sử dụng ADD EDGE để tạo các kết nối giữa các thành phần:
 <img src="https://github.com/anhict/Openstack-Heat/blob/master/images/heat22.png">
 
 
+``` sh 
+Note :
+python-heat-dashboard
+```
+
 
 
 
