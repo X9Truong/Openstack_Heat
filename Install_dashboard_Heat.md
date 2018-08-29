@@ -31,7 +31,7 @@ cp /usr/lib/python2.7/dist-packages/heat_dashboard/enabled/_[1-9]*.py \
 Copy file sau vào thư mục heat-dashboard
 
 ``` sh
-cp /usr/share/openstack-dashboard/./manage.py /usr/local/lib/python2.7/dist-packages/heat_dashboard/
+cp /usr/share/openstack-dashboard/manage.py /usr/local/lib/python2.7/dist-packages/heat_dashboard/
 ```
 
 Trên command line di chuyển tới thư mục heat-dashboard:
