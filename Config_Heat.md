@@ -220,7 +220,7 @@ root@controller:~# openstack orchestration service list
 * Chỉnh sửa file `vi /etc/heat/heat.conf`
 
 * Cấu hình truy cập cơ sở dữ liệu.
-
+```
 [database]
 connection = mysql+pymysql://heat:Welcome123@controller/heat
 
@@ -232,7 +232,7 @@ stack_domain_admin = heat_domain_admin
 stack_domain_admin_password = Welcome123
 stack_user_domain_name = heat
 transport_url = rabbit://openstack:Welcome123@controller
-
+```
 Cấu hình RabbitMQ
 
 
