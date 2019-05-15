@@ -12,7 +12,7 @@ yum install -y openstack-heat-* python-heatclient openstack-utils
 
 ``` sh
 Ubuntu 16.04
-pip install heat-dashboard
+apt-get install  python-heat-dashboard
 ```
 ``` sh
 sudo apt-get install gettext
